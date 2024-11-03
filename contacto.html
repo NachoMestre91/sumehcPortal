@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Find easily a doctor and book online an appointment" />
+    <meta name="author" content="Ansonika" />
+    <title>SUMEHC</title>
+
+    
+
+    <!-- GOOGLE WEB FONT -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800"
+      rel="stylesheet"
+    />
+
+    <!-- BASE CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/menu.css" rel="stylesheet" />
+    <link href="css/vendors.css" rel="stylesheet" />
+    <link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet" />
+
+   <!-- CSS GENERALES -->
+    <link href="css/custom.css" rel="stylesheet" />
+  </head>
+
+  <body>
+
+    <!-- Preload-->
+    <div id="preloader" class="Fixed">
+      <div data-loader="circle-side"></div>
+    </div>
+    
+
+    <div id="page">
+    
+        <!-- Header -->
+        <header class="header_sticky">
+          <a href="#menu" class="btn_mobile">
+            <div class="hamburger hamburger--spin" id="hamburger">
+              <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+              </div>
+            </div>
+          </a>
+          <!-- ======== MENU ======== -->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-6">
+                <div id="logo_home">
+                  <h1><a href="index.html" title="SUMEHC">SUMEHC</a></h1>
+                </div>
+              </div>
+              <div class="col-lg-9 col-6">
+                <ul id="top_access">
+                  <li>
+                    <a href="https://sumehc.impronta-tech.com/system"><i class="pe-7s-user"></i></a>
+                  </li>
+                 
+                </ul>
+                <nav id="menu" class="main-menu">
+                  <ul>
+                    <li>
+                      <span><a href="index.html">Inicio</a></span>
+                    </li>
+                    <li>
+                      <span><a href="#0">Servicios</a></span>
+                      <ul>
+                        <li><a href="listadomedicos.html">Profesionales</a></li>
+                        <li><a href="listadoclinicas.html">Clinicas</a></li>
+                        <li><a href="listadoobrasociales.html">Obras Sociales</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span><a href="#0">Nosotros</a></span>
+                      <ul>
+                        <li><a href="registroPaciente.html">Registro Paciente</a></li>
+                        <li><a href="registroProfesional.html">Registro Medico</a></li>
+                        <li><a href="sobresistema.html">Sobre el Sistema</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>           
+              </div>
+            </div>
+          </div>
+          <!-- ======== MENU ======== -->
+        </header>
+        <!-- /header -->
+         
+      <main>
+       
+
+        <div class="container margin_60_35">
+          <div class="row">
+
+            <aside class="col-lg-3 col-md-4">
+              <div id="contact_info">
+                <h3>Informacion Contacto</h3>
+                <p>
+                  Gomez Mestre Juan Ignacio<br />
+                  <a href="mailto:mestrenacho1991@gmail.com">mestrenacho1991@gmail.com</a>
+                </p>
+                <h4>Informacion Academica</h4>
+
+                <ul>
+                  <li>
+                    <strong style="color: #74d1c6">UNL - FICH</strong><br />
+                    <p>
+                      Tecnicatura en Informatica<br />
+                      Aplicada al Diseño Multimedia<br />
+                      y Sitios Web
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </aside>
+      
+            <div class="col-lg-8 col-md-8 ml-auto">
+              <div class="box_general">
+                <h3>Contacto</h3>
+                <p>Ingrese sus datos y la consulta que desea realizar</p>
+                <div>
+                  <div id="message-contact"></div>
+                  <form method="post" action="registroContacto.php" >
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="nombre_contacto"
+                            name="nombre_contacto"
+                            placeholder="Nombre"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="apellido_contacto"
+                            name="apellido_contacto"
+                            placeholder="Apellido"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                          <input
+                            type="email"
+                            id="email_contacto"
+                            name="email_contacto"
+                            class="form-control"
+                            placeholder="Email"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            id="telefono_contacto"
+                            name="telefono_contacto"
+                            class="form-control"
+                            placeholder="Telefono"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <textarea
+                            rows="5"
+                            id="mensaje_contacto"
+                            name="mensaje_contacto"
+                            class="form-control"
+                            style="height: 100px"
+                            placeholder="Ingrese su consulta"
+                          ></textarea>
+                        </div>
+                      </div>
+                    </div>
+
+                    <input
+                      type="submit"
+                      value="Enviar"
+                      class="btn_1 add_top_20"
+                      
+                    />
+                  </form>
+                </div>            
+              </div>
+            </div>     
+          </div>
+    
+        </div>
+
+      </main>
+
+
+      <!-- ====== FOOTER ======  -->
+      <footer>
+        <div class="container margin_60_35">
+          <div class="row">
+            <div class="col-lg-3 col-md-12">
+              <p>
+                <a href="index.html" title="Findoctor">
+                  <img
+                    src="img/logo.png"
+                    data-retina="true"
+                    alt=""
+                    width="163"
+                    height="36"
+                    class="img-fluid"
+                  />
+                </a>
+
+                <a href="index.html" title="Findoctor">
+                  <img
+                    src="img/logo-sanjuan.png"
+                    data-retina="true"
+                    alt=""
+                    width="163"
+                    height="36"
+                    class="img-fluid mt-3"
+                  />
+                </a>
+
+                <a href="index.html" title="Findoctor">
+                  <img
+                    src="img/logo-santafe.png"
+                    data-retina="true"
+                    alt=""
+                    width="163"
+                    height="36"
+                    class="img-fluid mt-3"
+                  />
+                </a>
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <h5>Sobre Nosotros</h5>
+              <ul class="links">
+                <li><a href="registroPaciente.html">Pacientes</a></li>
+                <li><a href="registroProfesional.html">Profesionales</a></li>
+                <li><a href="sobresistema.html">Sobre el sistema</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <h5>Mapa del sitio</h5>
+              <ul class="links">
+                <li><a href="listadomedicos.html">Profesionales</a></li>
+                <li><a href="listadoclinicas.html">Clinicas</a></li>
+                <li><a href="listadoobrasociales.html">Obras Sociales</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <h5>Contacto</h5>
+              <ul class="contacts">
+                <li>
+                  <a href=""><i class="icon_mobile"></i> 0800 000 0000</a>
+                </li>
+                <li>
+                  <a href=""><i class="icon_mail_alt"></i> info@sumehc.com</a>
+                </li>
+              </ul>
+              <div class="follow_us">
+                <h5>Nuestras Redes</h5>
+                <ul>
+                  <li>
+                    <a href="#0"><i class="social_facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#0"><i class="social_twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#0"><i class="social_linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="#0"><i class="social_instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <hr />
+          <div class="row">
+            <div class="col-md-8">
+              <ul id="additional_links">
+                <li><a href="#0">Terminos y condiciones</a></li>
+                <li><a href="#0">Politicas de privacidad</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <div id="copy">© 2024 - SUMEHC</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- ====== FIN FOOTER ======  -->
+
+    </div>
+ 
+
+    <!-- Subir Top Site -->
+    <div id="toTop"></div>
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/common_scripts.min.js"></script>
+    <script src="js/functions.js"></script>
+
+    <!-- VALIDACION SCRIPTS -->
+    <script src="assets/validate.js"></script>
+   
+  </body>
+</html>

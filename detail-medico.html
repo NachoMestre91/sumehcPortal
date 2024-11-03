@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Find easily a doctor and book online an appointment" />
+    <meta name="author" content="Ansonika" />
+    <title>SUMEHC</title>
+
+   
+
+    <!-- GOOGLE WEB FONT -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800"
+      rel="stylesheet"
+    />
+
+    <!-- BASE CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/menu.css" rel="stylesheet" />
+    <link href="css/vendors.css" rel="stylesheet" />
+    <link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet" />
+
+     <!-- CSS GENERALES -->
+    <link href="css/custom.css" rel="stylesheet" />
+  </head>
+
+  <body>
+     <!-- Preload-->
+    <div id="preloader" class="Fixed">
+      <div data-loader="circle-side"></div>
+    </div>
+   
+
+    <div id="page">
+      
+        <!-- Header -->
+        <header class="header_sticky">
+          <a href="#menu" class="btn_mobile">
+            <div class="hamburger hamburger--spin" id="hamburger">
+              <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+              </div>
+            </div>
+          </a>
+          <!-- ======== MENU ======== -->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-6">
+                <div id="logo_home">
+                  <h1><a href="index.html" title="SUMEHC">SUMEHC</a></h1>
+                </div>
+              </div>
+              <div class="col-lg-9 col-6">
+                <ul id="top_access">
+                  <li>
+                    <a href="https://sumehc.impronta-tech.com/system"><i class="pe-7s-user"></i></a>
+                  </li>
+                 
+                </ul>
+                <nav id="menu" class="main-menu">
+                  <ul>
+                    <li>
+                      <span><a href="index.html">Inicio</a></span>
+                    </li>
+                    <li>
+                      <span><a href="#0">Servicios</a></span>
+                      <ul>
+                        <li><a href="listadomedicos.html">Profesionales</a></li>
+                        <li><a href="listadoclinicas.html">Clinicas</a></li>
+                        <li><a href="listadoobrasociales.html">Obras Sociales</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span><a href="#0">Nosotros</a></span>
+                      <ul>
+                        <li><a href="registroPaciente.html">Registro Paciente</a></li>
+                        <li><a href="registroProfesional.html">Registro Medico</a></li>
+                        <li><a href="sobresistema.html">Sobre el Sistema</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>           
+              </div>
+            </div>
+          </div>
+          <!-- ======== MENU ======== -->
+        </header>
+        <!-- /header -->
+
+      <main>
+        <div id="breadcrumb">
+          <div class="container">
+            <ul>
+              <li><a href="#">Prestadores</a></li>
+              <li><a href="#">Medico</a></li>
+              <li>Detalle</li>
+            </ul>
+          </div>
+        </div>
+      
+
+        <div class="container margin_60">
+          <div class="row">
+            <div class="col-xl-8 col-lg-8">
+              <nav id="secondary_nav">
+                <div class="container">
+                  <ul class="clearfix">
+                    <li><a href="#datos_profesional" class="active">Datos del Profesional</a></li>
+                    <li><a href="#centro_atencion"> Centro de atencion</a></li>
+                    <li><a href="#horarios_atencion">Horarios</a></li>
+                    <li><a href="#sidebar"></a></li>
+                  </ul>
+                </div>
+              </nav>
+              <div id="datos_profesional">
+                <div class="box_general_3">
+                  <div class="profile">
+                    <div class="row">
+                      <div class="col-lg-5 col-md-4">
+                        <figure>
+                          <img id="imagen_profesional" src="" alt="" class="img-fluid" />
+                        </figure>
+                      </div>
+                      <div class="col-lg-7 col-md-8">
+                        <h1 id="medicoprofesional">Medico</h1>
+                        <small id="especialidad">Especilidad:</small>
+
+                        <ul class="statistic mt-3">
+                          <li id="matricula"></li>
+                        </ul>
+                        <ul class="contacts">
+                          <li>
+                            <h6>Hospital:</h6>
+
+                            <a id="nombrehospital"> </a>
+                          </li>
+                          <li>
+                            <h6>Clinica:</h6>
+
+                            <a id="nombreclinica"> </a>
+                    
+                      
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <hr />
+
+                  <!-- Perfil del prestador -->
+                  <div class="indent_title_in">
+                    <i class="pe-7s-user"></i>
+                    <h3>Datos Profesionales</h3>
+                    <p>Especialidad</p>
+                  </div>
+                  <div class="wrapper_indent">
+                    
+                      <p id="datosProfesional"> </p>                      
+                                 
+                  </div>
+                 
+
+                  <hr />
+
+                  <div class="indent_title_in" id="centro_atencion">
+                    <i class="pe-7s-map-marker"></i>
+                    <h3>Centro de Atencion</h3>
+                    <p>Lugar donde el prestador atiende</p>
+                  </div>
+                  <div class="wrapper_indent">
+                    <ul class="bullets">
+                      <li><strong id="AtencionHospital"></strong></li>
+                      <li>
+                        <strong id="AtencionClinica"></strong></li>                
+                    </ul>
+                  </div>   
+                  <hr />
+              
+                </div>         
+              </div>
+           
+
+              <div id="horarios_atencion">
+                <div class="box_general_3">
+                  <div class="reviews-container">
+                    <div class="row">
+                      <div class="indent_title_in">
+                        <i class="pe-7s-stopwatch"></i>
+                        <h3>Horarios</h3>
+                        <p>Horarios y dias de atencion</p>
+                      </div>
+                      <div class="wrapper_indent">
+                        <p>Es recomendable solicitar una cita con anticipación para garantizar la disponibilidad y la mejor atención posible. Para más información o para programar una consulta, no dudes en contactarnos.
+                          <br>Atendemos a nuestros pacientes en los siguientes días y horarios:
+                        </p>
+                        <div class="table-responsive">
+                          <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th>Clinica</th>
+                                <th>Dias</th>
+                                <th>Horarios</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td><p id="horarioClinica"> </p></td>
+                                <td>Lunes y Jueves</td>
+                                <td>16 a 20 hs</td>
+                              </tr>
+                              <tr>
+                                <td><p id="horarioHospital"> </p></td>
+                                <td>Martes y Miercoles</td>
+                                <td>9 a 14 hs</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>            
+
+                    <hr />
+                  </div>              
+                </div>
+              </div>
+         
+            </div>
+         
+             <!-- Solicitud de turnos -->
+            <aside class="col-xl-4 col-lg-4" id="sidebar">
+              <div class="box_general_3 booking">
+                <form>
+                  <div class="title text-center">
+                    <h3>Turnos</h3>
+                  </div>
+
+                  <ul class="treatments clearfix">
+                    <li>
+                      <div class="checkbox">
+                        <input type="checkbox" class="css-checkbox" id="visit1" name="visit1" />
+                        <label for="visit1" class="css-label"
+                          >Clinica Cimac<strong><i class="pe-7s-link"></i></strong
+                        ></label>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="checkbox">
+                        <input type="checkbox" class="css-checkbox" id="visit2" name="visit2" />
+                        <label for="visit2" class="css-label"
+                          >Clinica Castaño<strong><i class="pe-7s-link"></i></strong
+                        ></label>
+                      </div>
+                    </li>
+                  </ul>
+                </form>
+              </div>         
+            </aside>   
+          </div>    
+        </div>
+  
+      </main>
+
+
+      <!-- ====== FOOTER ======  -->
+      <footer>
+        <div class="container margin_60_35">
+          <div class="row">
+            <div class="col-lg-3 col-md-12">
+              <p>
+                <a href="index.html" title="Findoctor">
+                  <img
+                    src="img/logo.png"
+                    data-retina="true"
+                    alt=""
+                    width="163"
+                    height="36"
+                    class="img-fluid"
+                  />
+                </a>
+
+                <a href="index.html" title="Findoctor">
+                  <img
+                    src="img/logo-sanjuan.png"
+                    data-retina="true"
+                    alt=""
+                    width="163"
+                    height="36"
+                    class="img-fluid mt-3"
+                  />
+                </a>
+
+                <a href="index.html" title="Findoctor">
+                  <img
+                    src="img/logo-santafe.png"
+                    data-retina="true"
+                    alt=""
+                    width="163"
+                    height="36"
+                    class="img-fluid mt-3"
+                  />
+                </a>
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <h5>Sobre Nosotros</h5>
+              <ul class="links">
+                <li><a href="registroPaciente.html">Pacientes</a></li>
+                <li><a href="registroProfesional.html">Profesionales</a></li>
+                <li><a href="sobresistema.html">Sobre el sistema</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <h5>Mapa del sitio</h5>
+              <ul class="links">
+                <li><a href="listadomedicos.html">Profesionales</a></li>
+                <li><a href="listadoclinicas.html">Clinicas</a></li>
+                <li><a href="listadoobrasociales.html">Obras Sociales</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <h5>Contacto</h5>
+              <ul class="contacts">
+                <li>
+                  <a href=""><i class="icon_mobile"></i> 0800 000 0000</a>
+                </li>
+                <li>
+                  <a href=""><i class="icon_mail_alt"></i> info@sumehc.com</a>
+                </li>
+              </ul>
+              <div class="follow_us">
+                <h5>Nuestras Redes</h5>
+                <ul>
+                  <li>
+                    <a href="#0"><i class="social_facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#0"><i class="social_twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#0"><i class="social_linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="#0"><i class="social_instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+   
+          <hr />
+          <div class="row">
+            <div class="col-md-8">
+              <ul id="additional_links">
+                <li><a href="#0">Terminos y condiciones</a></li>
+                <li><a href="#0">Politicas de privacidad</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <div id="copy">© 2024 - SUMEHC</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- ====== FIN FOOTER ======  -->
+    </div>
+    
+    <!-- Subir Top Site -->
+    <div id="toTop"></div>
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/common_scripts.min.js"></script>
+    <script src="js/functions.js"></script>
+
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function () {
+        // Obtén los parámetros de la URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const especialidad = urlParams.get('especialidad');
+        const medicoprofesional = urlParams.get('medicoprofesional');
+        const nombrehospital = urlParams.get('nombrehospital');
+        const nombreclinica = urlParams.get('nombreclinica');
+        const matricula = urlParams.get('matricula');
+        const imagen = urlParams.get('imagen');
+        const datosProfesional = urlParams.get('datosProfesional');
+     
+
+        // Actualiza los elementos HTML con los datos del médico
+        document.getElementById('matricula').textContent = `M.P.   ${matricula}`;
+        document.getElementById('especialidad').textContent = `Especialidad: ${especialidad}`;
+        document.getElementById('medicoprofesional').textContent = medicoprofesional;
+        document.getElementById('nombrehospital').textContent = nombrehospital;
+        document.getElementById('nombreclinica').textContent = nombreclinica;
+        document.getElementById('datosProfesional').textContent = datosProfesional;
+
+        document.getElementById('horarioHospital').textContent = nombrehospital;
+        document.getElementById('horarioClinica').textContent = nombreclinica;
+
+        document.getElementById('AtencionHospital').textContent = nombrehospital;
+        document.getElementById('AtencionClinica').textContent = nombreclinica; 
+
+       
+        // Cargar la URL de la imagen en el elemento <img>
+        const imagenProfesional = document.getElementById('imagen_profesional');
+        if (imagen) {
+          imagenProfesional.src = imagen;
+        } else {
+          // Si no se proporciona una URL de imagen, puedes establecer una imagen de marcador de posición
+          imagenProfesional.src = imagen; // URL de imagen de marcador de posición
+        }
+        // Actualiza los demás elementos según sea necesario
+      });
+      
+    </script>
+  </body>
+</html>

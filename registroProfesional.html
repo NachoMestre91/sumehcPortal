@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Find easily a doctor and book online an appointment" />
+    <meta name="author" content="Ansonika" />
+    <title>SUMEHC</title>
+
+  
+
+    <!-- GOOGLE WEB FONT -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800"
+      rel="stylesheet"
+    />
+
+    <!-- BASE CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/menu.css" rel="stylesheet" />
+    <link href="css/vendors.css" rel="stylesheet" />
+    <link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet" />
+
+    <!-- CSS GENERALES -->
+    <link href="css/custom.css" rel="stylesheet" />
+  </head>
+
+  <body>
+
+     <!-- Preload-->
+    <div id="preloader" class="Fixed">
+      <div data-loader="circle-side"></div>
+    </div>
+   
+
+    <div id="page">
+      
+        <!-- Header -->
+        <header class="header_sticky">
+          <a href="#menu" class="btn_mobile">
+            <div class="hamburger hamburger--spin" id="hamburger">
+              <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+              </div>
+            </div>
+          </a>
+          <!-- ======== MENU ======== -->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-6">
+                <div id="logo_home">
+                  <h1><a href="index.html" title="SUMEHC">SUMEHC</a></h1>
+                </div>
+              </div>
+              <div class="col-lg-9 col-6">
+                <ul id="top_access">
+                  <li>
+                    <a href="https://sumehc.impronta-tech.com/system"><i class="pe-7s-user"></i></a>
+                  </li>
+                 
+                </ul>
+                <nav id="menu" class="main-menu">
+                  <ul>
+                    <li>
+                      <span><a href="index.html">Inicio</a></span>
+                    </li>
+                    <li>
+                      <span><a href="#0">Servicios</a></span>
+                      <ul>
+                        <li><a href="listadomedicos.html">Profesionales</a></li>
+                        <li><a href="listadoclinicas.html">Clinicas</a></li>
+                        <li><a href="listadoobrasociales.html">Obras Sociales</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span><a href="#0">Nosotros</a></span>
+                      <ul>
+                        <li><a href="registroPaciente.html">Registro Paciente</a></li>
+                        <li><a href="registroProfesional.html">Registro Medico</a></li>
+                        <li><a href="sobresistema.html">Sobre el Sistema</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>           
+              </div>
+            </div>
+          </div>
+          <!-- ======== MENU ======== -->
+        </header>
+        <!-- /header -->
+
+      <main>
+        <div id="breadcrumb">
+          <div class="container">
+            <ul>
+              <li><a href="#">Registro del Profesional Medico</a></li>
+            </ul>
+          </div>
+        </div>
+    
+
+        <div class="container margin_60">
+          <div class="row">
+           
+
+            <div class="col-xl-8 col-lg-8">
+              <form id="formularioMedico" action="registroProfesional.php" method="POST">
+                <div class="box_general_3 cart">
+                  <!-- Datos Personales -->
+                  <div class="form_title">
+                    <h3><strong>1</strong>Datos Personales</h3>
+                    <p>Ingrese datos personales del prestador</p>
+                  </div>
+                  <div class="step">
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                          <label>Nombre</label>
+                          <input type="text" class="form-control" id="nombre_prestador" name="nombre_prestador" placeholder="Ingrese Nombre" required />
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                          <label>Apellido</label>
+                          <input type="text" class="form-control" id="apellido_prestador" name="apellido_prestador" placeholder="Ingrese Apellido" required />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                          <label>Email</label>
+                          <input type="email" id="email_prestador" name="email_prestador" class="form-control" placeholder="Ingrese Email" required />
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                          <label>Teléfono</label>
+                          <input type="tel" id="telefono_prestador" name="telefono_prestador" class="form-control" placeholder="Ingrese Teléfono" required />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                          <label>D.N.I.</label>
+                          <input type="text" id="dni_prestador" name="dni_prestador" class="form-control" placeholder="Ingrese D.N.I." required />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <!-- Datos Profesionales -->
+                  <div class="form_title">
+                    <h3><strong>2</strong>Datos Profesionales</h3>
+                    <p>Ingrese los datos profesionales del prestador</p>
+                  </div>
+                  <div class="step">
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6">
+                        <label>Provincia</label>
+                        <div class="form-group">
+                          <select class="form-control" name="provincia" id="provincia" required>
+                            <option value="" disabled selected>Selecciona una provincia</option>
+                            <option value="Santa Fe">Santa Fe</option>
+                            <option value="San Juan">San Juan</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6">
+                        <label>Ciudad</label>
+                        <div class="form-group">
+                          <input type="text" id="ciudad" name="ciudad" class="form-control" placeholder="Ingrese ciudad" required />
+                        
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                          <label>Hospital</label>
+                          <input type="text" id="hospital_prestador" name="hospital_prestador" class="form-control" placeholder="Ingrese hospital primario" required />
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                          <label>Clinica</label>
+                          <input type="text" id="clinica_prestador" name="clinica_prestador" class="form-control" placeholder="Ingrese clinica primaria" required />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label>Ingrese Matricula</label>
+                          <input type="text" id="matricula_prestador" name="matricula_prestador" class="form-control" placeholder="Ingrese matricula profesional" required />
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label>Especialidad</label>
+                          <select class="form-control" name="especialidad_prestador" id="especialidad_prestador" required>
+                            <option value="" selected>Selecciona Especialidad</option>
+                            <option value="CIRUGIA CARDIOVASCULAR">CIRUGIA CARDIOVASCULAR</option>
+                            <option value="CUIDADOS PALIATIVOS">CUIDADOS PALIATIVOS</option>
+                            <option value="CARDIOLOGIA">CARDIOLOGIA</option>
+                            <option value="CIRUGIA GENERAL">CIRUGIA GENERAL</option>
+                            <option value="FISIOKINESIO">FISIOKINESIO</option>
+                            <option value="GINECOLOGIA">GINECOLOGIA</option>
+                            <option value="INFECTOLOGIA">INFECTOLOGIA</option>
+                            <option value="NEFROLOGIA">NEFROLOGIA</option>
+                            <option value="NUTRICIONISTA">NUTRICIONISTA</option>
+                            <option value="ONCOLOGIA">ONCOLOGIA</option>
+                            <option value="PEDIATRIA">PEDIATRIA</option>
+                            <option value="PSICOLOGIA">PSICOLOGIA</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <!-- Términos y condiciones -->
+                  <div id="policy">
+                    <h6>Términos y Condiciones</h6>
+                    <div class="form-group">
+                      <div class="checkboxes">
+                        <label class="container_check">Acepto
+                          <a  data-toggle="modal" data-target="#exampleModalCenter" href="#0" style="color: #74d1c6"> términos y condiciones y política general.</a>
+                        
+                          <input type="checkbox" required />
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <br> <br>
+                  <button type="submit" class="btn_1 full-width" style="color: #fff">Enviar Solicitud</button>
+                </div>
+              </form>
+            </div>
+            
+            <aside class="col-xl-4 col-lg-4" id="sidebar">
+              <div class="box_general_3 booking">
+                <div class="title">
+                  <h3>Prestador Medico</h3>
+                </div>
+                <div class="summary">
+                  <ul>
+                    <li>
+                      Prestador:
+                      <strong class="float-right" id="nombre_apellido_medico"></strong>
+                    </li>
+                    <li>
+                      Especialidad:
+                      <strong class="float-right" id="especialidad_medico"></strong>
+                    </li>
+                    <li>M.P: <strong class="float-right" id="matricula_medico"></strong></li>
+                  </ul>
+                  <ul class="treatments checkout clearfix">
+                    <li>
+                      Hospital:
+                      <strong class="float-right" id="hospital_profesional_medico"></strong>
+                    </li>
+                    <li>
+                      Clínica:
+                      <strong class="float-right" id="clinica_profesional_medico"></strong>
+                    </li>
+                  </ul>
+                </div>        
+                
+
+              </div>
+            </aside>
+             
+          
+         
+          </div>
+        </div>
+
+      </main>
+
+
+      <!-- ====== FOOTER ======  -->
+      <footer>
+        <div class="container margin_60_35">
+          <div class="row">
+            <div class="col-lg-3 col-md-12">
+              <p>
+                <a href="index.html" title="">
+                  <img
+                    src="img/logo.png"
+                    data-retina="true"
+                    alt=""
+                    width="163"
+                    height="36"
+                    class="img-fluid"
+                  />
+                </a>
+
+                <a href="index.html" title="Findoctor">
+                  <img
+                    src="img/logo-sanjuan.png"
+                    data-retina="true"
+                    alt=""
+                    width="163"
+                    height="36"
+                    class="img-fluid mt-3"
+                  />
+                </a>
+
+                <a href="index.html" title="Findoctor">
+                  <img
+                    src="img/logo-santafe.png"
+                    data-retina="true"
+                    alt=""
+                    width="163"
+                    height="36"
+                    class="img-fluid mt-3"
+                  />
+                </a>
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <h5>Sobre Nosotros</h5>
+              <ul class="links">
+                <li><a href="registroPaciente.html">Pacientes</a></li>
+                <li><a href="registroProfesional.html">Profesionales</a></li>
+                <li><a href="sobresistema.html">Sobre el sistema</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <h5>Mapa del sitio</h5>
+              <ul class="links">
+                <li><a href="listadomedicos.html">Profesionales</a></li>
+                <li><a href="listadoclinicas.html">Clinicas</a></li>
+                <li><a href="listadoobrasociales.html">Obras Sociales</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <h5>Contacto</h5>
+              <ul class="contacts">
+                <li>
+                  <a href=""><i class="icon_mobile"></i> 0800 000 0000</a>
+                </li>
+                <li>
+                  <a href=""><i class="icon_mail_alt"></i> info@sumehc.com</a>
+                </li>
+              </ul>
+              <div class="follow_us">
+                <h5>Nuestras Redes</h5>
+                <ul>
+                  <li>
+                    <a href="#0"><i class="social_facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#0"><i class="social_twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#0"><i class="social_linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="#0"><i class="social_instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+ 
+          <hr />
+          <div class="row">
+            <div class="col-md-8">
+              <ul id="additional_links">
+                <li><a href="#0">Terminos y condiciones</a></li>
+                <li><a href="#0">Politicas de privacidad</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <div id="copy">© 2024 - SUMEHC</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- ====== FIN FOOTER ======  -->
+    </div>
+
+    <!-- Subir Top Site -->
+    <div id="toTop"></div>
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/common_scripts.min.js"></script>
+    <script src="js/functions.js"></script>
+
+    <!-- SCRIPTS REGISTRO PROFESIONALES -->
+    <script src="scripts/registroProfesional.js"></script>   
+   
+
+    <!-- Modal Terminos y condiciones -->
+    <div
+      class="modal fade"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="background-color: #128bec">
+
+           
+            <h5 class="modal-title" id="exampleModalCenterTitle" style="color: #fff">
+              Declaracion Jurada
+            </h5>
+            <button
+              type="button"
+              class="close"
+              style="color: #fff"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true"><i class="pe-7s-close"></i></span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row ">
+              <div class="col-md-12 text-md-center mt-3 ">
+              <div id="logo">
+                <a href="index.html" title="Findoctor"
+                  ><img src="img/logo.png" data-retina="true" alt="" width="163" height="36"
+                /></a>
+              </div>
+            </div>
+            </div>
+
+            <div class="row">
+              
+              <div class="col-md-12 mt-5">
+                <div class=" text-md-center">
+                  <h4><strong hidden></strong>Datos Profesionales</h4>
+                  <p>Sus datos seran enviados para ser evaluados y aprobados segun el registro de <a href="https://sisa.msal.gov.ar/sisa/" target="_blank"><b  style="color:#74d1c6">REFEPS</b></a> y el Ministerio de la Salud de la Nacion.</p>                 
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Aceptar</button>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
