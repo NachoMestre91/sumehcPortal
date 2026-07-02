@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nombre": "CEAC",
+    "categoria": "Clinica",
+    "direccion": "Mitre 174 (O) | San Juan - Capital",
+    "telefono": "02645638888",
+    "imagen": "https://ceac.digital/wp-content/uploads/2025/07/CEAC-Frente-dia.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "CIMAC",
+    "categoria": "Clinica",
+    "direccion": "Rivadavia 574 (E) | San Juan - Capital",
+    "telefono": "02644293100",
+    "imagen": "https://cimacsanjuan.com.ar/wp-content/uploads/2023/03/14.-fachada-cimac.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "HOSPITAL Rawson ",
+    "categoria": "Hospital",
+    "direccion": "Av. Guillermo Rawson Sur 494 | San Juan - Capital",
+    "telefono": "02644224005",
+    "imagen": "https://sisanjuan.b-cdn.net/media/k2/items/cache/62f376397fd2e602ca39f5aa2f1893a1_L.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "HOSPITAL Marcial Quiroga",
+    "categoria": "Hospital",
+    "direccion": "Av. Libertador Gral. San Martín 5401 | San Juan - Rivadavia",
+    "telefono": "02644324700",
+    "imagen": "https://sisanjuan.b-cdn.net/media/k2/items/cache/404d77dbfc18bc347042b145ab0a9321_L.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Sanatorio San Juan",
+    "categoria": "Clinica",
+    "direccion": "Gral. Juan Lavalle 735 | San Juan - Capital",
+    "telefono": "02644200930",
+    "imagen": "https://pxbcdn.diariohuarpe.com/huarpe/012024/1706372933635/f0ad9147-c482-4ec6-8e4b-0f9a2248704b-jpeg..jpeg?cw=807&ch=454&"
+  }
+]

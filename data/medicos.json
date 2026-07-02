@@ -1,0 +1,232 @@
+[
+  {
+    "id": 1,
+    "especialidad": "CARDIOLOGIA",
+    "medicoprofesional": "Dr. Andrés Escudero",
+    "descripcion": "Especialista en Cardiología",
+    "nombreclinica": "Sanatorio Argentino",
+    "nombrehospital": "Hospital Marcial Quiroga",
+    "matricula": "MP-3245",
+    "imagen": "img/doctores/andres-escudero.jpg",
+    "datosProfesional": "Atención clínica cardiovascular y control de hipertensión.",
+    "horarios": [
+      {
+        "lugar": "Hospital Marcial Quiroga",
+        "dias": "Lunes, Miércoles y Viernes",
+        "horas": "08:00 a 12:00 hs"
+      },
+      {
+        "lugar": "Sanatorio Argentino",
+        "dias": "Martes y Jueves",
+        "horas": "16:00 a 20:00 hs"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "especialidad": "CIRUGIA GENERAL",
+    "medicoprofesional": "Dr. Mario Begueri",
+    "descripcion": "Especialista en Cirugía General",
+    "nombreclinica": "Clinica el Castaño",
+    "nombrehospital": "Hospital Rawson",
+    "matricula": "MP-1876",
+    "imagen": "img/doctores/mario-begueri.jpg",
+    "datosProfesional": "Cirugía laparoscópica y procedimientos ambulatorios.",
+    "horarios": [
+      {
+        "lugar": "Clinica el Castaño",
+        "dias": "Lunes y Jueves",
+        "horas": "15:00 a 19:00 hs"
+      },
+      {
+        "lugar": "Hospital Rawson",
+        "dias": "Martes",
+        "horas": "08:00 a 12:00 hs"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "especialidad": "PEDIATRIA",
+    "medicoprofesional": "Dra. Valeria Gómez",
+    "descripcion": "Especialista en Pediatría",
+    "nombreclinica": "Clinica el Mercedario",
+    "nombrehospital": "Hospital Iglesia",
+    "matricula": "MP-4567",
+    "imagen": "img/doctores/valeria-gomez.jpg",
+    "datosProfesional": "Atención pediátrica integral.",
+    "horarios": [
+      {
+        "lugar": "Clinica el Mercedario",
+        "dias": "Lunes a Viernes",
+        "horas": "08:00 a 12:00 hs"
+      },
+      {
+        "lugar": "Hospital Iglesia",
+        "dias": "Miércoles",
+        "horas": "15:00 a 18:00 hs"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "especialidad": "GINECOLOGIA",
+    "medicoprofesional": "Dra. Mariana López",
+    "descripcion": "Especialista en Ginecología",
+    "nombreclinica": "Sanatorio San Juan",
+    "nombrehospital": "Hospital Rawson",
+    "matricula": "MP-3344",
+    "imagen": "img/doctores/mariana-lopez.jpg",
+    "datosProfesional": "Controles ginecológicos y salud reproductiva.",
+    "horarios": [
+      {
+        "lugar": "Sanatorio San Juan",
+        "dias": "Lunes y Miércoles",
+        "horas": "14:00 a 18:00 hs"
+      },
+      {
+        "lugar": "Hospital Rawson",
+        "dias": "Viernes",
+        "horas": "09:00 a 13:00 hs"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "especialidad": "PSICOLOGIA",
+    "medicoprofesional": "Lic. Cecilia Sierra",
+    "descripcion": "Especialista en Psicología Clínica",
+    "nombreclinica": "Clinica el Castaño",
+    "nombrehospital": "Hospital Marcial Quiroga",
+    "matricula": "MP-2014",
+    "imagen": "img/doctores/cecilia-sierra.jpg",
+    "datosProfesional": "Atención de adolescentes y adultos.",
+    "horarios": [
+      {
+        "lugar": "Clinica el Castaño",
+        "dias": "Martes y Jueves",
+        "horas": "09:00 a 13:00 hs"
+      },
+      {
+        "lugar": "Hospital Marcial Quiroga",
+        "dias": "Viernes",
+        "horas": "15:00 a 19:00 hs"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "especialidad": "ONCOLOGIA",
+    "medicoprofesional": "Dr. Ricardo Torres",
+    "descripcion": "Especialista en Oncología",
+    "nombreclinica": "Sanatorio Argentino",
+    "nombrehospital": "Hospital Rawson",
+    "matricula": "MP-9134",
+    "imagen": "img/doctores/ricardo-torres.jpg",
+    "datosProfesional": "Tratamiento integral de pacientes oncológicos.",
+    "horarios": [
+      {
+        "lugar": "Sanatorio Argentino",
+        "dias": "Lunes y Miércoles",
+        "horas": "08:00 a 14:00 hs"
+      },
+      {
+        "lugar": "Hospital Rawson",
+        "dias": "Jueves",
+        "horas": "15:00 a 19:00 hs"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "especialidad": "NEFROLOGIA",
+    "medicoprofesional": "Dr. Javier Molina",
+    "descripcion": "Especialista en Nefrología",
+    "nombreclinica": "Sanatorio San Juan",
+    "nombrehospital": "Hospital Iglesia",
+    "matricula": "MP-7721",
+    "imagen": "img/doctores/javier-molina.jpg",
+    "datosProfesional": "Prevención y tratamiento de enfermedades renales.",
+    "horarios": [
+      {
+        "lugar": "Sanatorio San Juan",
+        "dias": "Martes y Jueves",
+        "horas": "10:00 a 14:00 hs"
+      },
+      {
+        "lugar": "Hospital Iglesia",
+        "dias": "Viernes",
+        "horas": "08:00 a 12:00 hs"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "especialidad": "INFECTOLOGIA",
+    "medicoprofesional": "Dra. Sofía Fernández",
+    "descripcion": "Especialista en Infectología",
+    "nombreclinica": "Clinica el Mercedario",
+    "nombrehospital": "Hospital Marcial Quiroga",
+    "matricula": "MP-8822",
+    "imagen": "img/doctores/sofia-fernandez.jpg",
+    "datosProfesional": "Control y seguimiento de enfermedades infecciosas.",
+    "horarios": [
+      {
+        "lugar": "Clinica el Mercedario",
+        "dias": "Lunes y Miércoles",
+        "horas": "15:00 a 19:00 hs"
+      },
+      {
+        "lugar": "Hospital Marcial Quiroga",
+        "dias": "Jueves",
+        "horas": "08:00 a 12:00 hs"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "especialidad": "NUTRICIONISTA",
+    "medicoprofesional": "Lic. Natalia Castro",
+    "descripcion": "Licenciada en Nutrición",
+    "nombreclinica": "Clinica el Castaño",
+    "nombrehospital": "Hospital Rawson",
+    "matricula": "MP-6254",
+    "imagen": "img/doctores/natalia-castro.jpg",
+    "datosProfesional": "Planes alimentarios personalizados.",
+    "horarios": [
+      {
+        "lugar": "Clinica el Castaño",
+        "dias": "Lunes a Jueves",
+        "horas": "08:00 a 12:00 hs"
+      },
+      {
+        "lugar": "Hospital Rawson",
+        "dias": "Viernes",
+        "horas": "14:00 a 18:00 hs"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "especialidad": "FISIOKINESIO",
+    "medicoprofesional": "Lic. Pablo Ruiz",
+    "descripcion": "Especialista en Fisiokinesiología",
+    "nombreclinica": "Sanatorio Argentino",
+    "nombrehospital": "Hospital Iglesia",
+    "matricula": "MP-5511",
+    "imagen": "img/doctores/pablo-ruiz.jpg",
+    "datosProfesional": "Rehabilitación traumatológica y deportiva.",
+    "horarios": [
+      {
+        "lugar": "Sanatorio Argentino",
+        "dias": "Lunes, Miércoles y Viernes",
+        "horas": "09:00 a 13:00 hs"
+      },
+      {
+        "lugar": "Hospital Iglesia",
+        "dias": "Martes y Jueves",
+        "horas": "16:00 a 20:00 hs"
+      }
+    ]
+  }
+]

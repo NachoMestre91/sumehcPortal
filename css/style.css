@@ -831,11 +831,13 @@ ul#additional_links li:after {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 650px;
 }
 @media (max-width: 767px) {
   .hero_home.version_3 {
     /* For less than 767px */
     height: 450px;
+    
   }
 }
 .hero_home.version_3 .content {
